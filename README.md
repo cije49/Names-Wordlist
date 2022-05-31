@@ -19,7 +19,7 @@ curl -L https://github.com/crissyfield/names-wordlist/releases/download/v1.0.0/n
 chmod +x /tmp/names-wordlist
 sudo mv /tmp/names-wordlist /usr/local/bin/names-wordlist
 ```
-# Usage
+## Usage
 Run names-wordlist in the command line like this:
 ```bash
 names-wordlist output.lst
