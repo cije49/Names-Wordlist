@@ -16,6 +16,8 @@ Run names-wordlist in the command line like this:
 names-wordlist output.lst
 ```
 # Licence
-Copyright (c) 2019 Crissy Field GmbH. Released under the MIT License.
+Copyright (c) 2019 Crissy Field GmbH. Released under the
+[MIT License](https://github.com/crissyfield/names-wordlist/blob/master/LICENSE).
 
-Dictionary icon made by Freepik from www.flaticon.com.
+Dictionary icon made by [Freepik](https://www.flaticon.com/authors/freepik) from
+[www.flaticon.com](https://www.flaticon.com/).
