@@ -20,13 +20,10 @@ chmod +x /tmp/names-wordlist
 sudo mv /tmp/names-wordlist /usr/local/bin/names-wordlist
 ```
 # Usage
-
 Run names-wordlist in the command line like this:
 ```bash
 names-wordlist output.lst
-
 names-wordlist [flags]
-
 Flags:
   -c, --count int              ignore names with less than N occurences (default 1)
   -d, --digits int             append up to N digits after the name (default 4)
