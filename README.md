@@ -1,12 +1,22 @@
 # Names-Wordlist
 Names-Wordlist is a command line tool that extracts popular first names from Wikipedia dumps to generate wordlist for password cracking.
 
-# Installation
+## Installation
+
+### Wordlists
+
+Pre-generated wordlists can be downloaded directly from the
+[release page](https://github.com/crissyfield/names-wordlist/releases/latest).
+
+### Binaries
+
+Pre-built binaries are available from the
+[release page](https://github.com/crissyfield/names-wordlist/releases/latest) as well. Simply download, make
+executable, and move it to a folder in your `PATH`:
+
 ```bash
 curl -L https://github.com/crissyfield/names-wordlist/releases/download/v1.0.0/names-wordlist-`uname -s`-`uname -m` >/tmp/names-wordlist
-
 chmod +x /tmp/names-wordlist
-
 sudo mv /tmp/names-wordlist /usr/local/bin/names-wordlist
 ```
 # Usage
