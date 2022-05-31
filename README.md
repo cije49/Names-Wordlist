@@ -14,6 +14,17 @@ sudo mv /tmp/names-wordlist /usr/local/bin/names-wordlist
 Run names-wordlist in the command line like this:
 ```bash
 names-wordlist output.lst
+
+names-wordlist [flags]
+
+Flags:
+  -c, --count int              ignore names with less than N occurences (default 1)
+  -d, --digits int             append up to N digits after the name (default 4)
+  -u, --dump-url string        overwrite default URL for given language
+  -h, --help                   help for names-wordlist
+  -s, --special-chars string   append special characters from this set (default "!$@_")
+  -v, --verbose                write more
+      --version                version for names-wordlist
 ```
 # Licence
 Copyright (c) 2019 Crissy Field GmbH. Released under the
